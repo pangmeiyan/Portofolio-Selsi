@@ -1,0 +1,48 @@
+.bg-pink{
+   background-color: #921A40;
+}
+.bg-pink2{
+   background-color: #b82956;
+}
+.nav-item a{
+   color: #fff;
+}
+.nav-item .nav-link:hover{
+   color: #40091a;
+   border-bottom: 1px solid #fff;
+   transition: 0.5s;
+}
+.nav-item .nav-link{
+   border-bottom: 1px solid #921A40;
+}
+.thumbnaill{
+   border-radius: 10px;
+}
+.text-justify{
+   text-align: justify;
+}
+.ror:hover{
+   background-color: #40091a;
+}
+.m-20{
+   margin-bottom: -20px;
+}
+
+@media (max-width: 576px){
+   .deskripsi{
+      font-size: 18px;
+      text-align: center;
+   }
+   .overview .row{
+   gap: 40px;
+   }
+   .featured-projects .row{
+      gap: 40px;
+   }
+   .featured-projects img{
+      width: auto;
+   }
+   .latest-blog-post .row{
+      gap: 40px;
+   }
+}
